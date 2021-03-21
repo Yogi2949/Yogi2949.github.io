@@ -1,0 +1,122 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(7, 5, 5);
+    background-color:rgb(242, 247, 216);
+}
+
+.profile-card{
+
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: rgb(237, 241, 179);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    
+}
+
+.image-container{
+    position: relative;
+}
+
+.info{
+
+
+    color: royalblue;
+    margin-right: 20px;
+
+}
+
+.main-container{
+
+    padding: 16px;
+}
+
+.skill-bar{
+    background-color: #bdc9ea ;
+    border-radius: 16px;
+
+}
+
+.progress-bar{
+
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #403ec5;
+}
+
+
+/* .profile-card .social-icons {
+    display: -webkit-box;
+    display: flex;
+    margin-top: 1.2em;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+  }
+  .profile-card .social-icons .icon {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  .profile-card .social-icons .icon a {
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+   
+    
+  }
+
+  */
+  hr {
+    border-top: 1px solid red ;
+
+    
+  }
+
+  .footer{
+    background-color: var(--second-color);
+    color: rgb(92, 21, 224);
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 1rem 0;
+  }
+  .footer__title{
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+  }
+  .footer__social{
+    margin-bottom: var(--mb-4);
+  }
+  .footer__icon{
+    font-size: 1.5rem;
+    color: rgb(84, 21, 201);
+    margin: 0 var(--mb-2)
+  }
+
+
+
+  @media screen and (min-width: 768px){
+    body{
+      margin: 0;
+    }
+    .section{
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+    }
+    .section-title{
+      margin-bottom: var(--mb-6);
+    }
+    .section-title::after{
+      width: 80px;
+      top: 3rem;
+    }
+  }
